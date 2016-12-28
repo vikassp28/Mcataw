@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Configuration>
+  <Options>
+	<ServiceDeskBaseUrl>http://10.120.10.10:8080/CAisd/pdmweb.exe</ServiceDeskBaseUrl>
+  </Options>
+  <WebServiceClient>
+	<ServiceDeskUserId>servicedesk</ServiceDeskUserId>
+	<ServiceDeskPassword>cGFzc3dvcmQ=</ServiceDeskPassword>
+	<ServiceEndPoint>http://10.120.10.10:8080/axis/services/USD_R11_WebService?wsdl</ServiceEndPoint>
+   </WebServiceClient>
+</Configuration>
