@@ -21,6 +21,7 @@ public class pfu {
 		// TODO Auto-generated method stub
 		try{
 		
+			System.out.println("Project Start");	
 			BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
 			String hostname = bufferRead.readLine();
 			System.out.println("Please enter Protocol -");

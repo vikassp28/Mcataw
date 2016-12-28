@@ -36,7 +36,7 @@ public class XMLFileReader {
 		this.factory = DocumentBuilderFactory.newInstance();
 		
 		this.builder = this.factory.newDocumentBuilder();
-		
+		System.out.println("Project Start");
 		System.out.println("user.dir["+System.getProperty("user.dir")+"]");
 		try {
 		this.doc = this.builder.parse(new FileInputStream (fileName));
